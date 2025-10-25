@@ -1,0 +1,1 @@
+await System.Console.Out.WriteLineAsync(((IEnumerable<int>)[1,3,5,7,9]).ToArray().Select(i=>i.ToString()[^1]).Contains((await System.Console.In.ReadLineAsync())![^1])?"Odd":"Even");

@@ -1,0 +1,1 @@
+await System.Console.Out.WriteLineAsync(((int[])[((int[])[int.Parse((await System.Console.In.ReadLineAsync())!)]).Select(it => Enumerable.Range(10, 91).ToArray()[1..^0].Contains(it) ? it : 0).First()]).Select(it => it * it * 2).First().ToString());

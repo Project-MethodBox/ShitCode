@@ -1,0 +1,2 @@
+// Paticipate in Challenge A
+import{createInterface as a}from"node:readline/promises";const _=['Even','Odd'];const n=await(async()=>await(async()=>await(async()=>await(async()=>await(async()=>await(async()=>await(async()=>await(async()=>await(async()=>await(async()=>await(async()=>parseInt(await a({input:process.stdin,output:process.stdout}).question("Please input a number:\n")))())())())())())())())())())())();console.log(_[n&1]);process.exit(0)

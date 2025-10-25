@@ -1,0 +1,2 @@
+// Paticipate in Challenge A
+import*as R from'readline/promises';const r=R.createInterface(process.stdin,process.stdout);const _=(await r.question("Please input a number:\n")).trim().split(' ').map(_12345678=>parseInt(_12345678));const c=BigInt(_[0])*BigInt(_[1])-BigInt(((_[0]|0)*(_[1]|0))|0)===0n;const s=['No','Yes'];console.log(s[+c]);r.close()
